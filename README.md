@@ -1,13 +1,13 @@
-# RAG Pipeline API
+# Intelligent RAG Pipeline
 
-A production-ready **Retrieval-Augmented Generation (RAG)** API built with FastAPI. Upload documents (PDF, DOCX, TXT), ask questions, and receive accurate answers grounded in your content using vector search and an LLM.
+A production-grade **Retrieval-Augmented Generation (RAG)** system featuring **Hybrid Search (Dense ChromaDB + Sparse BM25)**, **Cross-Encoder Reranking (FlashRank)**, **Automated RAGAS Evaluation**, and an interactive **Gradio Studio & FastAPI backend**. 
 
-## Live Deployment (Start Here)
+Upload documents (PDF, DOCX, TXT), execute natural language queries, and receive accurate answers grounded strictly in retrieved context with source attribution and citations.
+
+## Live Deployment
 👉 **Interactive API Dashboard:** [https://intern-assignment-2y95.onrender.com/docs](https://intern-assignment-2y95.onrender.com/docs)
 
-> **Note:** This API is currently deployed on a free Render instance to save costs. It automatically spins down when inactive. When you click the link, **please allow ~50 seconds for the server to wake up** on the initial load!
-
-Services like GCP, AWS, Azure, etc. were not used as they were requiring credits and prepayments which were not available to me. Instead, Render was used for deployment.
+> **Note:** The live API is hosted on a free Render web service. It automatically spins down when inactive. On first access, **please allow ~50 seconds for the container to spin up**.
 
 ## Architecture
 
